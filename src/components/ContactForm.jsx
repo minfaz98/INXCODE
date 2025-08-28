@@ -39,7 +39,7 @@ export default function ContactForm() {
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-extrabold text-sky-400 mb-10">Contact Us</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-sky-400 mb-12 hover:text-white transition-colors duration-300">Contact Us</h2>
 
         <div className="bg-gray-800/70 backdrop-blur-lg p-8 rounded-2xl shadow-2xl max-w-lg mx-auto border border-gray-700">
           <form onSubmit={handleSubmit} className="space-y-5">

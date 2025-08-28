@@ -13,18 +13,21 @@ export default function Services() {
   return (
     <section id="services" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-sky-400  mb-12">Our Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-sky-400 mb-12 hover:text-white transition-colors duration-300">
+  Our Services
+</h2>
+
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {services.map((s) => (
             <div
               key={s.title}
-              className="bg-gray-800 p-8 rounded-3xl shadow-lg transform transition-transform hover:scale-105 hover:bg-gray-700 cursor-pointer"
+              className="bg-white p-8 rounded-3xl shadow-lg transform transition-transform hover:scale-105 hover:bg-gray-700  cursor-pointer"
               
             >
               <div className="flex justify-center mb-6 text-sky-500">{iconMap[s.title]}</div>
-              <h3 className="text-xl font-semibold text-white mb-2">{s.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{s.description}</p>
+              <h3 className="text-xl font-semibold text-black mb-2">{s.title}</h3>
+              <p className="text-sky-500 text-sm leading-relaxed">{s.description}</p>
             </div>
           ))}
         </div>
