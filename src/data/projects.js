@@ -1,22 +1,23 @@
-
-import ecommerceImg from "../assets/projects/ecommerce.jpg";
-import mobileBankingImg from "../assets/projects/MobileBanking.jpg";
+import ECommerceImg from "../assets/projects/ecommerce.jpg";
+import MobileBankingImg from "../assets/projects/MobileBanking.jpg";
 import corporateImg from "../assets/projects/corporate.webp";
 import restaurantImg from "../assets/projects/restaurant.jpg";
 import chatbotImg from "../assets/projects/Chatbot.png";
-import healthcareImg from "../assets/projects/Health.jpg";
+import HealthImg from "../assets/projects/Health.jpg";
 import travelImg from "../assets/projects/travel.png";
 import portfolioImg from "../assets/projects/Portfolio.webp";
+
+
 
 const projects = [
   {
     title: "E-Commerce Website",
-    image: ecommerceImg,
+    image: ECommerceImg,
     tags: ["React", "Node.js", "MongoDB"],
   },
   {
     title: "Mobile Banking App",
-    image: mobileBankingImg,
+    image: MobileBankingImg,
     tags: ["Flutter", "Firebase"],
   },
   {
@@ -36,7 +37,7 @@ const projects = [
   },
   {
     title: "Healthcare Dashboard",
-    image: healthcareImg,
+    image: HealthImg,
     tags: ["Angular", "Spring Boot"],
   },
   {
