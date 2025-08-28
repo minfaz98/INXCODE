@@ -44,7 +44,7 @@ export default function Footer() {
       <div className="py-4 text-center text-sm text-gray-500">
         <p>
           © {new Date().getFullYear()} <span className="text-white font-semibold">INXCODE Pvt Ltd</span>.  
-          All rights reserved. | Designed with <span className="text-red-500">♥</span>
+          All rights reserved. | Designed by <span className="text-red-900/55 italic underline">Minfaz</span>
         </p>
       </div>
     </footer>
