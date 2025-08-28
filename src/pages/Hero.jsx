@@ -7,7 +7,7 @@ export default function Hero() {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
-      offset: -70, // adjust for fixed header
+      offset: -70,
     });
   };
 
@@ -26,7 +26,7 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 py-20 animate-fade-in">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6 hover:text-sky-200/75">
           Building Digital Experiences that Matter
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10">

@@ -16,13 +16,13 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-zinc-900/75 backdrop-blur-xl shadow-md border-b border-white/20 h-25">
-      <nav className="container mx-auto flex justify-between items-center px-2 md:px-4">
+      <nav className="container mx-auto flex justify-between items-center  md:px-4">
         {/* Logo */}
         <a
           href="#home"
           className="flex items-center gap-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-transform hover:scale-105"
         >
-          <img src={logo} alt="INXCODE" className="h-30 w-30 object-contain" />
+          <img src={logo} alt="INXCODE" className="h-30 w-30" />
           
         </a>
 
@@ -58,7 +58,7 @@ export default function Header() {
                 offset={-80}
                 duration={500}
                 activeClass="text-blue-700 font-bold"
-                className="cursor-pointer capitalize text-white px-2 py-1 transition-colors hover:text-blue-500"
+                className="cursor-pointer capitalize text-white px-2 py-1 transition-colors hover:text-blue-900"
               >
                 {item.label}
                 <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-blue-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>

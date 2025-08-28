@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold font-serif  text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold font-serif  text-white mb-12 hover:text-sky-200/75">
           Website Design & Development Projects
         </h2>
 
@@ -29,7 +29,7 @@ export default function Portfolio() {
               </div>
 
               {/* Project title and tags */}
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/50 text-left">
+              <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/75 text-left">
                 <h3 className="text-lg font-semibold text-white">{p.title}</h3>
                 <p className="text-gray-300 text-sm mt-1">{p.tags.join(", ")}</p>
               </div>

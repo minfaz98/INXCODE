@@ -9,57 +9,67 @@ const team = [
     name: "Alice Johnson",
     position: "CEO & Founder",
     email: "alice@inxcode.com",
-    description: "Visionary leader driving innovation and growth across all projects.",
+    description:
+      "Visionary leader driving innovation and growth across all projects.",
     image: TeamMember1,
     socials: {
       linkedin: "https://linkedin.com/in/alicejohnson",
       twitter: "https://twitter.com/alicejohnson",
-      github: "https://github.com/alicejohnson"
-    }
+      github: "https://github.com/alicejohnson",
+    },
   },
   {
     name: "Bob Smith",
     position: "Lead Developer",
     email: "bob@inxcode.com",
-    description: "Expert in full-stack development and building scalable applications.",
+    description:
+      "Expert in full-stack development and building scalable applications.",
     image: TeamMember2,
     socials: {
       linkedin: "https://linkedin.com/in/bobsmith",
       twitter: "https://twitter.com/bobsmith",
-      github: "https://github.com/bobsmith"
-    }
+      github: "https://github.com/bobsmith",
+    },
   },
   {
     name: "Clara Lee",
     position: "UI/UX Designer",
     email: "clara@inxcode.com",
-    description: "Creative designer crafting intuitive and beautiful user experiences.",
+    description:
+      "Creative designer crafting intuitive and beautiful user experiences.",
     image: TeamMember3,
     socials: {
       linkedin: "https://linkedin.com/in/claralee",
       twitter: "https://twitter.com/claralee",
-      github: "https://github.com/claralee"
-    }
+      github: "https://github.com/claralee",
+    },
   },
   {
     name: "David Kim",
     position: "Digital Marketing Manager",
     email: "david@inxcode.com",
-    description: "Focused on building brand presence and driving online growth.",
+    description:
+      "Focused on building brand presence and driving online growth.",
     image: TeamMember4,
     socials: {
       linkedin: "https://linkedin.com/in/davidkim",
       twitter: "https://twitter.com/davidkim",
-      github: "https://github.com/davidkim"
-    }
-  }
+      github: "https://github.com/davidkim",
+    },
+  },
 ];
 
 export default function Team() {
   return (
-    <section id="team" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
+    <section
+      id="team"
+      className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
+    >
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12" data-aos="fade-up">
+        <h2
+          className="text-3xl md:text-4xl font-bold text-white mb-12"
+          data-aos="fade-up"
+        >
           Meet Our Team
         </h2>
 
@@ -80,9 +90,13 @@ export default function Team() {
 
               {/* Content */}
               <div className="p-6 text-left">
-                <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
+                <h3 className="text-xl font-semibold text-gray-900">
+                  {member.name}
+                </h3>
                 <p className="text-blue-600 font-medium">{member.position}</p>
-                <p className="text-gray-600 text-sm mt-2">{member.description}</p>
+                <p className="text-gray-600 text-sm mt-2">
+                  {member.description}
+                </p>
                 <p className="text-gray-500 text-xs mt-2">{member.email}</p>
               </div>
 

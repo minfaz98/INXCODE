@@ -13,7 +13,7 @@ export default function Services() {
   return (
     <section id="services" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-sky-400 mb-12 hover:text-white transition-colors duration-300">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 hover:text-white transition-colors duration-300">
   Our Services
 </h2>
 
