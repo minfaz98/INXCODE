@@ -15,7 +15,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-grey/50 backdrop-blur-xl shadow-md border-b border-white/20 h-25">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-zinc-900/75 backdrop-blur-xl shadow-md border-b border-white/20 h-25">
       <nav className="container mx-auto flex justify-between items-center px-2 md:px-4">
         {/* Logo */}
         <a

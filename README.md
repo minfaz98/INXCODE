@@ -1,12 +1,75 @@
-# React + Vite
+# INXCODE Company Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive company portfolio website built with **React (Vite)** and **Tailwind CSS**.  
+This website showcases the company’s services, team members, portfolio/projects, and provides ways for clients to get in touch. It uses **modern UI design principles** such as **glassmorphism**, hover animations, and responsive layouts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Hero Section** – Engaging introduction with CTA buttons  
+- **About Section** – Company overview and mission  
+- **Services Section** – Modern service cards with icons & hover effects  
+- **Projects/Portfolio** – Showcase of past projects with images and details  
+- **Our Team Section** – Team members with image, role, email, and description  
+- **Contact Form** – Functional form for inquiries  
+- **Footer** – Social media links, contact info, and branding  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React (Vite)** – Frontend framework for fast builds  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **React Icons / Feather Icons** – Modern icons  
+- **Glassmorphism UI** – Modern, elegant design style  
+
+---
+
+## 📂 Folder Structure
+inxcode
+├── public
+├── src/
+│ ├── assets/ # Images (team, projects,)
+│ ├── components/ # Reusable components (Navbar, Footer, etc.)
+│ ├── pages/ # Page components (Home, About, Services, Contact, etc.)
+│ ├── data/ # JSON files (services, projects, team members)
+│ ├── App.jsx # Main app component
+│ ├── main.jsx # Entry point
+│ └── index.css # Tailwind base styles
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/inxcode-portfolio.git
+   cd inxcode-portfolio
+2. Install dependencies
+npm install
+
+
+3. Run the development server
+npm run dev
+
+
+4. Build for production
+npm run build2
+
+
+🎨 Design Decisions
+
+Glassmorphism Cards: Used for services, projects, and team sections to give a futuristic look
+
+Responsive Layout: Built with Tailwind’s grid & flex utilities for all screen sizes
+
+Hover Animations: Subtle scaling & color changes for interactivity
+
+Consistent Branding: Blue + Sky gradient accents for modern professional feel
+
+Reusable JSON Data: Services, projects, and team members are stored in JSON for easy editing

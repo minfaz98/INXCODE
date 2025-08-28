@@ -4,7 +4,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold font-serif  text-white mb-12">
           Website Design & Development Projects
         </h2>
 
