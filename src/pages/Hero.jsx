@@ -1,4 +1,5 @@
 import { scroller } from "react-scroll";
+import bg from "../assets/bg.jpg";
 
 export default function Hero() {
   const scrollToSection = (id) => {
@@ -15,10 +16,10 @@ export default function Hero() {
       id="home"
       className="relative h-screen flex items-center justify-center text-center bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800 overflow-hidden"
     >
-      {/* Optional illustration / decorative shapes */}
+    
       <div className="absolute inset-0 opacity-20">
         <img
-          src="https://via.placeholder.com/1600x900"
+          src={bg}
           alt="Abstract tech background"
           className="w-full h-full object-cover"
         />
