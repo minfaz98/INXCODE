@@ -3,7 +3,7 @@ import MobileBankingImg from "../assets/projects/MobileBanking.jpg";
 import corporateImg from "../assets/projects/corporate.webp";
 import restaurantImg from "../assets/projects/restaurant.jpg";
 import chatbotImg from "../assets/projects/Chatbot.png";
-import HealthImg from "../assets/projects/Health.jpg";
+import HealthImg from "../assets/projects/health.jpg";
 import travelImg from "../assets/projects/travel.png";
 import portfolioImg from "../assets/projects/portfolio.webp";
 
