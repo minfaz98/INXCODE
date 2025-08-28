@@ -7,8 +7,6 @@ import HealthImg from "../assets/projects/Health.jpg";
 import travelImg from "../assets/projects/travel.png";
 import portfolioImg from "../assets/projects/portfolio.webp";
 
-
-
 const projects = [
   {
     title: "E-Commerce Website",
