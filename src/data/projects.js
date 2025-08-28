@@ -5,7 +5,7 @@ import restaurantImg from "../assets/projects/restaurant.jpg";
 import chatbotImg from "../assets/projects/Chatbot.png";
 import HealthImg from "../assets/projects/Health.jpg";
 import travelImg from "../assets/projects/travel.png";
-import portfolioImg from "../assets/projects/Portfolio.webp";
+import portfolioImg from "../assets/projects/portfolio.webp";
 
 
 
