@@ -1,12 +1,12 @@
 
-import ecommerceImg from "../assets/projects/images.jpeg";
+import ecommerceImg from "../assets/projects/ecommerce.jpg";
 import mobileBankingImg from "../assets/projects/MobileBanking.jpg";
-import corporateImg from "../assets/projects/corporate.jpeg";
-import restaurantImg from "../assets/projects/Restaurant.png";
+import corporateImg from "../assets/projects/corporate.webp";
+import restaurantImg from "../assets/projects/restaurant.jpg";
 import chatbotImg from "../assets/projects/Chatbot.png";
-import healthcareImg from "../assets/projects/Healthcare.jpeg";
-import travelImg from "../assets/projects/travel.jpeg";
-import portfolioImg from "../assets/projects/Portfolio.jpeg";
+import healthcareImg from "../assets/projects/Health.jpg";
+import travelImg from "../assets/projects/travel.png";
+import portfolioImg from "../assets/projects/Portfolio.webp";
 
 const projects = [
   {
