@@ -57,9 +57,9 @@ const team = [
 
 export default function Team() {
   return (
-    <section id="team" className="py-20 bg-gray-100">
+    <section id="team" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12" data-aos="fade-up">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12" data-aos="fade-up">
           Meet Our Team
         </h2>
 
@@ -67,7 +67,7 @@ export default function Team() {
           {team.map((member, index) => (
             <div
               key={index}
-              className="relative bg-white/50 backdrop-blur-md rounded-3xl shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl group"
+              className="relative bg-white backdrop-blur-md rounded-3xl shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl group"
               data-aos="fade-up"
               data-aos-delay={index * 100} // stagger animation
             >
