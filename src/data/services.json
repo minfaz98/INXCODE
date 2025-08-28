@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Web Development",
+    "description": "We build fast, secure, and scalable websites tailored to your business needs using the latest web technologies."
+  },
+  {
+    "title": "Mobile Apps",
+    "description": "From concept to launch, we design and develop intuitive mobile apps for both iOS and Android platforms."
+  },
+  {
+    "title": "UI/UX Design",
+    "description": "We craft user-centered designs that combine aesthetics with functionality, ensuring an engaging experience."
+  },
+  {
+    "title": "Cloud Solutions",
+    "description": "We help businesses migrate, manage, and optimize their operations on the cloud for better scalability and security."
+  },
+  {
+    "title": "Digital Marketing",
+    "description": "Boost your online presence with our tailored SEO, social media, and paid ad campaigns designed for results."
+  }
+]
